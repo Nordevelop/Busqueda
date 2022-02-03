@@ -9,7 +9,7 @@ public class BinarySearchagnostic {
 		 * Author Nordevelop
 		 * 
 		 */
-		int[] nums1 = {-1, 2, 4, 6, 7, 8, 12, 15, 19, 32, 45, 67, 99};
+	int[] nums1 = {-1, 2, 4, 6, 7, 8, 12, 15, 19, 32, 45, 67, 99};
         int[] nums2 = {99, 67, 45, 32, 19, 15, 12, 8, 7, 6, 4, 2, -1};
         int target = 15;
         System.out.println(" primer  Array: "+Arrays.toString(nums1));
