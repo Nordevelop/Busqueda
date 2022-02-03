@@ -22,10 +22,10 @@ public class LinearSearch {
 	            if (nums[i] == target) {
 	                return i;
 	            }
-	        }
+	        } //fin ciclo for
 	        return -1;
 		
 
-	}
+	}//fin metodo search()
 
-}
+}  //fin clase LinealSearch
