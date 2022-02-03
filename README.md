@@ -10,4 +10,4 @@ Compara el elemento objetivo, con el elemento medio del Array, si el elmento obj
 
 # Busqueda Agnostica:
 La implementacion es similar a la busqueda binaria,necesitamos identificar si el array está ordenado de forma ascendente o descendente.Si el Array está ordenado en forma ascendente y el objetivo es menor que el elemento del medio o está ordenada en forma descendente y el objetivo es mayor que el elemento del medio, entonces continuamos la búsqueda en la mitad hacia la izquierda del Array estableciendo ultimo=medio-1.
-En caso contrario, realizamos la busqueda en la mitad hacia la derecha del array estableciendo  primero=medio+1
+En caso contrario, realizamos la busqueda en la mitad hacia la derecha del array estableciendo  primero=medio+1.
