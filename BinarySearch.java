@@ -15,11 +15,11 @@ public class BinarySearch {
         System.out.println(search(nums, target));
     }
 
-    static int search(int[] nums, int target) {
+    static int search(int[] nums, int target) {  //metodo Busqueda
         int primero = 0;
         int ultimo = nums.length - 1;
 
-        while (primero <= ultimo) {
+        while (primero <= ultimo) {  
             int mid = primero + (ultimo - primero) / 2;
 
             if (nums[mid] > target)         
@@ -34,6 +34,6 @@ public class BinarySearch {
 		
 
 
-	}
+	} //fin metodo busqueda
 
 }
