@@ -18,7 +18,7 @@ public class LinearSearch {
 	    }
 
 	    static int search(int[] nums, int target) {	 //metodo de busqueda
-	        for (int i = 0; i < nums.length; i++) {  //correr un ciclo for dentro del Array ||_||_||_||_||_||(nums)
+	        for (int i = 0; i < nums.length; i++) {  //recorrer  dentro del Array ||_||_||_||_||_||(nums)con un ciclo for
 	            if (nums[i] == target) {
 	                return i;
 	            }
