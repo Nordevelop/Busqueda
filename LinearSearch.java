@@ -1,5 +1,7 @@
 package misClases;
 
+import java.utils.*;
+
 import java.util.Arrays;
 
 public class LinearSearch {
