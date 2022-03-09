@@ -2,6 +2,8 @@ package misClases;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class BinarySearchagnostic {
 
 	public static void main(String[] args) {
