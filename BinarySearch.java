@@ -20,7 +20,7 @@ public class BinarySearch {
         int primero = 0;
         int ultimo = nums.length - 1;
                                                                                                                  //x                                                                         
-        while (primero <= ultimo) {  //Mientras primero sea mayor o igual al ultimo elemento del Array |_|_|_|_|_|_|_|
+        while (primero <= ultimo) {  //Mientras primero sea mayor o igual al ultimo elemento del Array |_|_|_|_|_|_|
             int mid = primero + (ultimo - primero) / 2;
 
             if (nums[mid] > target)         
